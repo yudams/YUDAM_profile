@@ -600,10 +600,12 @@ header .innerContent {
     line-height: 0;
     max-height: 49rem;
     /* width: 100%; */
+    text-align: center;
 }
 
 .train>li figure img {
     width: 100%;
+    max-width: 1920px;
     max-height: 50rem;
     object-fit: cover;
 }
@@ -799,9 +801,12 @@ header .innerContent {
     font-weight: 600;
     margin-bottom: 1rem;
 }
-
+.project_img{
+    text-align: center;
+}
 .project_img img {
     width: 100%;
+    max-width: 1920px;
     margin-bottom: 6rem;
 }
 
