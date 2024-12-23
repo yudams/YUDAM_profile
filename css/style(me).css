@@ -1,0 +1,45 @@
+.con5 .train .innerContent{
+    display: flex;
+    text-align: left;
+    padding-top: 1.5rem;
+    padding-bottom: 0rem;
+}
+
+.banner1{
+    margin-right: 7rem;
+    height: 1.8rem;
+}
+.train section:last-of-type{
+    margin-right: 0;
+}
+.banner1 h6{
+    font-size: 1.1rem;
+    font-weight: var(--font-weight-bold);
+}
+.banner1 div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
+
+}
+.banner2{
+    display: flex;
+}
+.banner2 dl{
+    width: calc(50% - 1rem);
+    margin-right: 6rem;
+    /* display: flex;
+    flex-direction: column; */
+}
+.banner2 dt{
+    font-size: 1.1rem;
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 1rem;
+    height: 1.8rem;
+    padding-top: 0.5rem;
+}
+.banner2>dl:nth-of-type(2) dd{
+    display: flex;
+    /* justify-content: center; */
+}

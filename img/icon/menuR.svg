@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.08 22.25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="mobile_design">
+    <g>
+      <rect class="cls-1" x="0" y="0" width="26.08" height="2.29" rx="1" ry="1" transform="translate(26.08 2.29) rotate(180)"/>
+      <rect class="cls-1" x="8.92" y="9.98" width="17.16" height="2.29" rx=".81" ry=".81" transform="translate(35 22.25) rotate(180)"/>
+      <rect class="cls-1" x="0" y="19.96" width="26.08" height="2.29" rx="1" ry="1" transform="translate(26.08 42.21) rotate(180)"/>
+    </g>
+  </g>
+</svg>

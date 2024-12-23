@@ -1,0 +1,161 @@
+/* Common Style */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+@font-face {
+    font-family: "ink_point";
+    src: url("../font/Inkfree.ttf");
+}
+html{
+    scroll-behavior: smooth;
+}
+html{
+    font-family: "Pretendard Variable", Pretendard, -apple-system, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-size: var(--font-size-pc,20px);
+    /* 만약 변수를 읽지 못하는 경우에는 20px 적용 가능 */
+    line-height: 1.4;
+    word-break: keep-all;
+}
+.innerContent{
+    width: 1440px;
+    margin: 0 auto;
+    /* border: 1px solid lime; */
+}
+.btnCommon{
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #000;
+    display: inline-block;
+    padding: 0.8rem 2.15rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    /* border: 1px solid #000; */
+    /* 눌렀을 때 #0756D6 */
+}
+.btnCommon:hover{
+    color: var(--main-color);
+}
+.btnCommon:active{
+    background-color: var(--sub-color);
+    color: #fff;
+    /* border: 1px solid #0756D6; */
+}
+
+.btnCommon.color{
+    background-color: var(--main-color);
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.btnCommon.color:hover{
+    background-color: var(--sub-color);
+    color: #fff;
+    /* border: 1px solid #0756D6; */
+}
+
+:root{
+    --main-color: #3E7FF7;
+    --sub-color: #0756D6;
+    --font-size-pc: 20px;
+    --font-size-tab: 18px;
+    --font-size-mobile: 14px;
+    --font-weight-thin: 200;
+    --font-weight-bold: 800;
+}
+/* bold - 굵은 폰트 적용 semantic tag */
+bold{font-weight: var(--font-weight-bold)}
+
+/* thin - 얇은 폰트 적용 semantic tag */
+thin{font-weight: var(--font-weight-thin)}
+
+/* mc - 메인 컬러(#3E7FF7) 적용 semantic tag */
+mc{color: var(--main-color);}
+
+/* i - ink free 폰트 적용 semantic tag */
+Ink{font-family: "ink_point";}
+
+.b{
+    font-weight: var(--font-weight-bold);
+}
+
+h3{
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+h4{
+    font-size: 3.5rem;
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 1rem;
+}
+
+
+.desc{
+    margin-bottom: 4rem;
+}
+
+.btnDown{
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #000;
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    border-radius: 1.5rem;
+}
+.btnDown:hover{
+    background-color: var(--main-color);
+}
+.btnDown:active{
+    background-color: var(--sub-color);
+}
+.btnDown2{
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #000;
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    border-radius: 1.5rem;
+}
+.btnDown2:hover{
+    background-color: var(--main-color);
+}
+.btnDown2:active{
+    background-color: var(--sub-color);
+}
+
+/* 스크롤바 */
+/* 전체 스크롤바 */
+::-webkit-scrollbar {
+    width: 0.6rem; /* 스크롤바의 너비 */
+    height: 0.6rem; /* 가로 스크롤바의 높이 */
+}
+
+/* 스크롤바의 트랙 */
+::-webkit-scrollbar-track {
+    background: #ddd; /* 트랙 배경 색상 */
+    border-radius: 0.5rem; 
+    /* 트랙 모서리 둥글게 */
+}
+
+/* 스크롤바의 핸들 */
+::-webkit-scrollbar-thumb {
+    background: var(--main-color); /* 핸들 색상 */
+    border-radius: 10.5rem; /* 핸들 모서리 둥글게 */
+}
+
+/* 핸들 호버 시 색상 변경 */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--sub-color); /* 핸들 호버 색상 */
+}
+
+/* 가로 스크롤바의 핸들 */
+::-webkit-scrollbar-thumb:horizontal {
+    background: var(--main-color); /* 가로 핸들 색상 */
+}
+body::-webkit-scrollbar {
+    display: none; 
+    /* Webkit 기반 브라우저에서 스크롤바 숨기기 */
+}
